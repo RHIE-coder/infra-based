@@ -1,2 +1,3 @@
 # infra-based
-Infra Setting
+
+[ubuntu remote setting](./ubuntu/remote-setting.md)
