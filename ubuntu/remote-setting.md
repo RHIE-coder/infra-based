@@ -112,3 +112,8 @@ sudo apt install curl
 ```
 wget --version
 ```
+
+#### tree
+```
+sudo apt install tree
+```
