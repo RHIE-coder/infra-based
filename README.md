@@ -1,4 +1,5 @@
 # infra-based
-
- - [ubuntu remote setting](./ubuntu/remote-setting.md)
- - [docker setting](./container/docker-setting.md)
+ - [ICT 기반 지식](./knowledge/README.md)
+ - [Ubuntu 원격 환경 설정](./ubuntu/remote-setting.md)
+ - [Ubuntu Redis 설치](./ubuntu/redis-setting.md)
+ - [Docker 설치](./container/docker-setting.md)
