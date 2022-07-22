@@ -6,3 +6,4 @@
  - [CentOS 원격 환경 설정](./centos/remote-setting.md)
  - [CentOS 포트 열기](./centos/open-port.md)
  - [yum-pack](./centos/yum-pack/)
+ - [HTTP Response Status](./knowledge/docs/05-http-status.md)
