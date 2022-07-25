@@ -2,26 +2,6 @@
 
 [origin guide site](https://redis.io/docs/getting-started/installation/install-redis-on-linux/)
 
-## Ubuntu
-
-```bash
-curl -fsSL https://packages.redis.io/gpg | sudo gpg --dearmor -o /usr/share/keyrings/redis-archive-keyring.gpg
-
-echo "deb [signed-by=/usr/share/keyrings/redis-archive-keyring.gpg] https://packages.redis.io/deb $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/redis.list
-
-sudo apt-get update
-sudo apt-get install redis
-```
- - check
-```bash
-sudo systemctl status redis-server
-```
-
-### redis-server
-### redis-tools( redis-cli )
-
-<br><br><br><br><br>
-
 ## Centos 
 
 ```bash
@@ -29,6 +9,19 @@ sudo yum install epel-release yum-utils
 sudo yum install http://rpms.remirepo.net/enterprise/remi-release-7.rpm
 sudo yum-config-manager --enable remi
 ```
+
+### redis-server
+### redis-tools( redis-cli )
+
+<br>
+<br>
+<br>
+<hr>
+<br>
+<br>
+<br>
+
+#### `Manual Installation` (오류가 많아 추천하지 않음)
 
 ```bash
 sudo yum install redis

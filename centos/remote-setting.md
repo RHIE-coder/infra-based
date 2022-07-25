@@ -613,3 +613,185 @@ exiting because "Download Only" specified
 ```
 
 <!-- yum install -y gcc-c++ make -->
+
+<br>
+<br>
+<br>
+
+### wget
+
+
+```bash
+의존성 없음
+```
+
+<br>
+<br>
+<br>
+
+### gcc
+
+```
+Loaded plugins: fastestmirror
+Loading mirror speeds from cached hostfile
+ * base: mirror.navercorp.com
+ * extras: mirror.navercorp.com
+ * updates: mirror.navercorp.com
+Resolving Dependencies
+--> Running transaction check
+---> Package gcc.x86_64 0:4.8.5-44.el7 will be installed
+--> Processing Dependency: cpp = 4.8.5-44.el7 for package: gcc-4.8.5-44.el7.x86_64
+--> Processing Dependency: glibc-devel >= 2.2.90-12 for package: gcc-4.8.5-44.el7.x86_64
+--> Processing Dependency: libmpfr.so.4()(64bit) for package: gcc-4.8.5-44.el7.x86_64
+--> Processing Dependency: libmpc.so.3()(64bit) for package: gcc-4.8.5-44.el7.x86_64
+--> Running transaction check
+---> Package cpp.x86_64 0:4.8.5-44.el7 will be installed
+---> Package glibc-devel.x86_64 0:2.17-326.el7_9 will be installed
+--> Processing Dependency: glibc-headers = 2.17-326.el7_9 for package: glibc-devel-2.17-326.el7_9.x86_64
+--> Processing Dependency: glibc = 2.17-326.el7_9 for package: glibc-devel-2.17-326.el7_9.x86_64
+--> Processing Dependency: glibc-headers for package: glibc-devel-2.17-326.el7_9.x86_64
+---> Package libmpc.x86_64 0:1.0.1-3.el7 will be installed
+---> Package mpfr.x86_64 0:3.1.1-4.el7 will be installed
+--> Running transaction check
+---> Package glibc.x86_64 0:2.17-317.el7 will be updated
+--> Processing Dependency: glibc = 2.17-317.el7 for package: glibc-common-2.17-317.el7.x86_64
+---> Package glibc.x86_64 0:2.17-326.el7_9 will be an update
+---> Package glibc-headers.x86_64 0:2.17-326.el7_9 will be installed
+--> Processing Dependency: kernel-headers >= 2.2.1 for package: glibc-headers-2.17-326.el7_9.x86_64
+--> Processing Dependency: kernel-headers for package: glibc-headers-2.17-326.el7_9.x86_64
+--> Running transaction check
+---> Package glibc-common.x86_64 0:2.17-317.el7 will be updated
+---> Package glibc-common.x86_64 0:2.17-326.el7_9 will be an update
+---> Package kernel-headers.x86_64 0:3.10.0-1160.71.1.el7 will be installed
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+========================================================================================================================
+ Package                       Arch                  Version                               Repository              Size
+========================================================================================================================
+Installing:
+ gcc                           x86_64                4.8.5-44.el7                          base                    16 M
+Installing for dependencies:
+ cpp                           x86_64                4.8.5-44.el7                          base                   5.9 M
+ glibc-devel                   x86_64                2.17-326.el7_9                        updates                1.1 M
+ glibc-headers                 x86_64                2.17-326.el7_9                        updates                691 k
+ kernel-headers                x86_64                3.10.0-1160.71.1.el7                  updates                9.1 M
+ libmpc                        x86_64                1.0.1-3.el7                           base                    51 k
+ mpfr                          x86_64                3.1.1-4.el7                           base                   203 k
+Updating for dependencies:
+ glibc                         x86_64                2.17-326.el7_9                        updates                3.6 M
+ glibc-common                  x86_64                2.17-326.el7_9                        updates                 12 M
+
+Transaction Summary
+========================================================================================================================
+Install  1 Package  (+6 Dependent packages)
+Upgrade             ( 2 Dependent packages)
+
+Total download size: 48 M
+Background downloading packages, then exiting:
+Delta RPMs disabled because /usr/bin/applydeltarpm not installed.
+(1/9): cpp-4.8.5-44.el7.x86_64.rpm                                                               | 5.9 MB  00:00:00     
+(2/9): glibc-devel-2.17-326.el7_9.x86_64.rpm                                                     | 1.1 MB  00:00:00     
+(3/9): glibc-2.17-326.el7_9.x86_64.rpm                                                           | 3.6 MB  00:00:00     
+(4/9): glibc-headers-2.17-326.el7_9.x86_64.rpm                                                   | 691 kB  00:00:00     
+(5/9): mpfr-3.1.1-4.el7.x86_64.rpm                                                               | 203 kB  00:00:00     
+(6/9): libmpc-1.0.1-3.el7.x86_64.rpm                                                             |  51 kB  00:00:00     
+(7/9): gcc-4.8.5-44.el7.x86_64.rpm                                                               |  16 MB  00:00:00     
+(8/9): glibc-common-2.17-326.el7_9.x86_64.rpm                                                    |  12 MB  00:00:00     
+(9/9): kernel-headers-3.10.0-1160.71.1.el7.x86_64.rpm                                            | 9.1 MB  00:00:00     
+------------------------------------------------------------------------------------------------------------------------
+Total                                                                                    57 MB/s |  48 MB  00:00:00     
+exiting because "Download Only" specified
+```
+
+####  - yum installed log
+
+```
+Loaded plugins: fastestmirror
+Loading mirror speeds from cached hostfile
+ * base: mirror.navercorp.com
+ * extras: mirror.navercorp.com
+ * updates: mirror.navercorp.com
+Resolving Dependencies
+--> Running transaction check
+---> Package gcc.x86_64 0:4.8.5-44.el7 will be installed
+--> Processing Dependency: cpp = 4.8.5-44.el7 for package: gcc-4.8.5-44.el7.x86_64
+--> Processing Dependency: glibc-devel >= 2.2.90-12 for package: gcc-4.8.5-44.el7.x86_64
+--> Processing Dependency: libmpfr.so.4()(64bit) for package: gcc-4.8.5-44.el7.x86_64
+--> Processing Dependency: libmpc.so.3()(64bit) for package: gcc-4.8.5-44.el7.x86_64
+--> Running transaction check
+---> Package cpp.x86_64 0:4.8.5-44.el7 will be installed
+---> Package glibc-devel.x86_64 0:2.17-326.el7_9 will be installed
+--> Processing Dependency: glibc-headers = 2.17-326.el7_9 for package: glibc-devel-2.17-326.el7_9.x86_64
+--> Processing Dependency: glibc-headers for package: glibc-devel-2.17-326.el7_9.x86_64
+---> Package libmpc.x86_64 0:1.0.1-3.el7 will be installed
+---> Package mpfr.x86_64 0:3.1.1-4.el7 will be installed
+--> Running transaction check
+---> Package glibc-headers.x86_64 0:2.17-326.el7_9 will be installed
+--> Processing Dependency: kernel-headers >= 2.2.1 for package: glibc-headers-2.17-326.el7_9.x86_64
+--> Processing Dependency: kernel-headers for package: glibc-headers-2.17-326.el7_9.x86_64
+--> Running transaction check
+---> Package kernel-headers.x86_64 0:3.10.0-1160.71.1.el7 will be installed
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+=========================================================================================================================
+ Package                       Arch                  Version                                Repository              Size
+=========================================================================================================================
+Installing:
+ gcc                           x86_64                4.8.5-44.el7                           base                    16 M
+Installing for dependencies:
+ cpp                           x86_64                4.8.5-44.el7                           base                   5.9 M
+ glibc-devel                   x86_64                2.17-326.el7_9                         updates                1.1 M
+ glibc-headers                 x86_64                2.17-326.el7_9                         updates                691 k
+ kernel-headers                x86_64                3.10.0-1160.71.1.el7                   updates                9.1 M
+ libmpc                        x86_64                1.0.1-3.el7                            base                    51 k
+ mpfr                          x86_64                3.1.1-4.el7                            base                   203 k
+
+Transaction Summary
+=========================================================================================================================
+Install  1 Package (+6 Dependent packages)
+
+Total download size: 33 M
+Installed size: 60 M
+Is this ok [y/d/N]: y
+Downloading packages:
+(1/7): glibc-headers-2.17-326.el7_9.x86_64.rpm                                                    | 691 kB  00:00:00     
+(2/7): cpp-4.8.5-44.el7.x86_64.rpm                                                                | 5.9 MB  00:00:00     
+(3/7): mpfr-3.1.1-4.el7.x86_64.rpm                                                                | 203 kB  00:00:00     
+(4/7): libmpc-1.0.1-3.el7.x86_64.rpm                                                              |  51 kB  00:00:00     
+(5/7): kernel-headers-3.10.0-1160.71.1.el7.x86_64.rpm                                             | 9.1 MB  00:00:00     
+(6/7): glibc-devel-2.17-326.el7_9.x86_64.rpm                                                      | 1.1 MB  00:00:00     
+(7/7): gcc-4.8.5-44.el7.x86_64.rpm                                                                |  16 MB  00:00:00     
+-------------------------------------------------------------------------------------------------------------------------
+Total                                                                                     35 MB/s |  33 MB  00:00:00     
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+  Installing : mpfr-3.1.1-4.el7.x86_64                                                                               1/7 
+  Installing : libmpc-1.0.1-3.el7.x86_64                                                                             2/7 
+  Installing : cpp-4.8.5-44.el7.x86_64                                                                               3/7 
+  Installing : kernel-headers-3.10.0-1160.71.1.el7.x86_64                                                            4/7 
+  Installing : glibc-headers-2.17-326.el7_9.x86_64                                                                   5/7 
+  Installing : glibc-devel-2.17-326.el7_9.x86_64                                                                     6/7 
+  Installing : gcc-4.8.5-44.el7.x86_64                                                                               7/7 
+  Verifying  : kernel-headers-3.10.0-1160.71.1.el7.x86_64                                                            1/7 
+  Verifying  : mpfr-3.1.1-4.el7.x86_64                                                                               2/7 
+  Verifying  : glibc-devel-2.17-326.el7_9.x86_64                                                                     3/7 
+  Verifying  : cpp-4.8.5-44.el7.x86_64                                                                               4/7 
+  Verifying  : glibc-headers-2.17-326.el7_9.x86_64                                                                   5/7 
+  Verifying  : gcc-4.8.5-44.el7.x86_64                                                                               6/7 
+  Verifying  : libmpc-1.0.1-3.el7.x86_64                                                                             7/7 
+
+Installed:
+  gcc.x86_64 0:4.8.5-44.el7                                                                                              
+
+Dependency Installed:
+  cpp.x86_64 0:4.8.5-44.el7                    glibc-devel.x86_64 0:2.17-326.el7_9 glibc-headers.x86_64 0:2.17-326.el7_9
+  kernel-headers.x86_64 0:3.10.0-1160.71.1.el7 libmpc.x86_64 0:1.0.1-3.el7         mpfr.x86_64 0:3.1.1-4.el7            
+
+Complete!
+```
